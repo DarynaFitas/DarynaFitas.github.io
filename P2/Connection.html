@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зворотній зв`язок</title>
+</head>
+<body>
+    <article id="Зворотній зв`язок">
+        <h1>Зворотній зв`язок</h1>
+        <label for="коментар"> вибрати коментар </label>
+        <select id="підтримка, побажання, скарга" name="повідомлення" size="3" multiple> 
+            <option value="підтримка"> Підтримка</option>
+            <option value="побажання"> Побажання</option>
+            <option value="скарга"> Скарга</option>
+        </select>    
+        <form>
+            <textarea name="підтримка, побажання, скарга, тощо." rows="20" cols="30">
+
+            </textarea>
+        </form>
+        <form>
+            <label for="my file"> Вибрати файл:</label>
+            <input type="file" id="myfile" name="myfile">
+        </form>
+        <form action="menu.php" method="post">
+            <select name=“Вибір зворотнього зв`язку”>
+              <option value="Номер телефону" selected>Номер телефону +380991833965</option>
+              <option value="email">email fitas.daryna@student.uzhnu.edu.ua</option>
+            </select>
+          </form>
+          
+    </article>
+</body>
+</html>
