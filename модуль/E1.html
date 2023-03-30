@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul1</title>
+</head>
+<style>
+    body {
+        background-color: hotpink;
+    }
+    input[type="text"] {
+        width: 130 px;
+        display: block;
+        margin-bottom: 20;
+        background-color: navy;
+    }
+</style>
+<body>
+    <main>
+        <form method = "post" name = "Регістрація">
+            <label for = "login">Name:</label><br>
+            <input type = "text" id = "login" name = "login"><br>
+            <label for = "password">Password:</label><br>
+            <input type = "password" id = "password" name = "password"><br>
+            <label for = "email">Email:</label><br>
+            <input type = "email" id = "email" name = "email"><br>
+            <label for = "phone number">Phone Number:</label><br>
+            <input type = "tel" id = "phone number" name = "phone number" placeolder = "+38(099)-183-39-65" pattern = "[0-9]{2(3)}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required><br>
+        </form>
+        <form>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">other</label>
+        </form>
+        <label for="language">Choose a language</label>
+        <select id="language" name="language" size="3" multiple>
+            <option value="Ukraine">Ukraine</option>
+            <option value="English">English</option>
+            <option value="German">German</option>
+        </select> 
+        <form>
+            <label for="about">Enter your email:</label>
+            <input type="about" id="about" name="about">
+            <input type = "submit" value = "Log in">
+        </form>
+    </main>    
+</body>
+</html>
