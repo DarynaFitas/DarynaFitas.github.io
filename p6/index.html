@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Task1()">task1</button>
+    <button onclick="Task2()">task2</button>
+    <button onclick="Task3()">task3</button>
+    <button onclick="Task4()">task4</button>
+</body>
+<script>
+    function Task4(){
+    var arr=[];
+    var prize=0;
+    for (i=0;i<11;i++){
+        arr[i]=parseInt(Math.random()*1001-500);
+    }
+    alert(arr)
+    while (true){
+        var n=parseInt(prompt('введіть номер комірки'))
+        prize+=arr[n-1]
+        alert('you won '+prize)
+        var b=confirm('continue?')
+        if (b!=true){
+            break;
+        }
+    }
+    alert('your prize ='+prize)
+    }
+    function Task1(){
+        var arr=[3,4,5,5,5];
+        var mark2=0;
+        var mark3=0;
+        var mark4=0;
+        var mark5=0;
+        for (i=0;i<arr.length;i++){
+            el=arr[i]
+            if (el==2){
+                mark2++
+}
+        if (el==3){
+            mark3++ }
+            if (el==4){
+                mark4++
+}
+        if (el==5){
+            mark5++ }
+        }
+        function arraySum(array){
+        var sum = 0;
+        for(var i = 0; i < array.length; i++){
+        sum += array[i];
+        }
+        console.log(sum);
+ 
+         return sum;
+        }
+        if (mark2>0){
+            alert('двійочник!')
+        }
+        if (mark3>0 && mark2<1){
+            alert('трійочник')
+        }
+        if (mark3<1 && mark2<1 && mark4>0 && mark5>0){
+            alert('хорошист')
+        }
+        if (mark2<1 && mark3<1 && mark4<1 && mark5>0){
+            alert('відмінник')
+        }
+        alert('середній бал='+((arraySum(arr)/arr.length)))
+    }
+    function Task2(){
+        var arr=[24,34,12,9,16,17,1];
+        var lessThan20Customers=0;
+        var minCustomers=arr[0];
+        var maxCustomers=0;
+        var sum1=0;
+        var sum2=0;
+        var arr1=[];
+        for (i=0;i<arr.length;i++){
+            if (arr[i]<20){
+                arr1.push(i+1)
+}
+}
+        alert((arr1)+' '+'номери днів, коли кількість відвідувачів менше ніж 20');
+        for (i=0;i<arr.length-2;i++){
+            sum1+=arr[i]
+        }
+        for (i=5;i<arr.length;i++){
+            sum2+=arr[i]
+        }
+        for (i=0;i<arr.length-1;i++){
+            if (minCustomers>arr[i]){
+                minCustomers=i+1;
+            }
+ 
+             if (maxCustomers<arr[i]){
+                maxCustomers=i+1;
+} }
+        alert(minCustomers+' - номер дня, коли кількість відвідувачів мінімальна')
+        alert(maxCustomers+' - номер дня,коли  кількість відвідувачів максимальна')
+        alert(sum1+' загальна кількість клієнтів у робочі дні')
+        alert(sum2+' загальна кількість клієнтів у вихідні')
+    }
+    function Task3(){
+        arr=["Іван","Маша","Маша","Міша","Денис"];
+        alert(arr)
+        var name=prompt('введіть імя')
+        var nameCount=0;
+        for (i=0;i<arr.length;i++){
+            if (arr[i]==name){
+                nameCount++;
+} }
+        alert(nameCount)
+    }
+
+</script>
+</html>
