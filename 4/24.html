@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    //24. Задано натуральне число N. Знайти кількість натуральних чисел, що не перевищують N і не діляться на жодне з чисел 2,3,5.
+    function countNumbers(N) {
+    let count = 0;
+    for (let i = 1; i <= N; i++) {
+        if (i % 2 !== 0 && i % 3 !== 0 && i % 5 !== 0) {
+        count++;
+        }
+    }
+    return count;
+    }
+    console.log(countNumbers(20)); 
+</script>
+<body>
+    
+</body>
+</html>

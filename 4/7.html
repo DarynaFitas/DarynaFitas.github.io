@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+//7. До спортзалу щодня приходить якась кількість відвідувачів. Необхідно запропонувати користувачеві ввести такі дані: скільки людей відвідало спортзал за день, ввести вік кожного відвідувача і в результаті показати вік найстаршого та наймолодшого з них, а також порахувати середній вік відвідувачів.
+    let totalVisitors = 0; 
+    let totalAge = 0; 
+    let youngestAge = null; 
+    let oldestAge = null; 
+    const visitorsCount = Number(prompt('Скільки людей відвідало спортзал за день?'));
+    for (let i = 1; i <= visitorsCount; i++) {
+        const age = Number(prompt(`Введіть вік відвідувача #${i}:`));
+        totalAge += age;
+    if (youngestAge === null || age < youngestAge) {
+        youngestAge = age;
+    }
+    if (oldestAge === null || age > oldestAge) {
+        oldestAge = age;
+    }
+    }
+    const averageAge = totalAge / visitorsCount;
+    console.log(`Наймолодший відвідувач має вік ${youngestAge} років`);
+    console.log(`Найстарший відвідувач має вік ${oldestAge} років`);
+    console.log(`Середній вік відвідувачів становить ${averageAge} років`);
+</script>
+<body>
+    
+</body>
+</html>
