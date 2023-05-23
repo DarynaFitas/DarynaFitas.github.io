@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Доставка</title>
+</head>
+<body>
+<form>
+    <label for="price">Ціна:</label>
+    <input type="number" id="price" name="price" required>
+
+    <label for="weight">Вага:</label>
+    <input type="number" id="weight" name="weight" required>
+
+    <button type="button" onclick="calculateDelivery()">Сума</button>
+
+    <p id="delivery-price"></p>
+</form>
+
+<script>
+    function calculateDelivery() {
+        const price = document.getElementById('price').value;
+        const weight = document.getElementById('weight').value;
+
+        let deliveryPrice = 0;
+        if (weight <= 2) {
+            deliveryPrice = 40;
+        } else if (weight <= 10) {
+            deliveryPrice = 60;
+        } else if (weight <= 30) {
+            deliveryPrice = 80;
+        } else {
+            alert('Вибачте ми не можемо відправити товар більше за 30 кг.');
+            return;
+        }
+
+        document.getElementById('delivery-price').textContent = `Ціна доставки: ${deliveryPrice} UAH`;
+    }
+</script>
+</body>
+</html>
