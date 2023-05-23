@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounter</title>
+</head>
+<form>
+    <label for="code">Код:</label>
+    <input type="text" id="code" name="code"><br><br>
+
+    <label for="name">ПІБ:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="position">Посада:</label>
+    <input type="text" id="position" name="position"><br><br>
+
+    <label for="salary">Заробітна плата:</label>
+    <input type="text" id="salary" name="salary"><br><br>
+
+    <label for="children">Кількість дітей:</label>
+    <input type="text" id="children" name="children"><br><br>
+
+    <label for="experience">Стаж:</label>
+    <input type="text" id="experience" name="experience"><br><br>
+
+    <button type="button" onclick="addEmployee()">Додати співробітника</button>
+    <button type="button" onclick="getEmployee()">Інформація про співробітника</button>
+    <button type="button" onclick="editEmployee()">Редагувати інформацію</button>
+    <button type="button" onclick="deleteEmployee()">Видалити співробітника</button>
+    <br><br>
+
+    <label for="position-filter">Посада:</label>
+    <input type="text" id="position-filter" name="position-filter"><br><br>
+
+    <label for="children-filter">Кількість дітей:</label>
+    <input type="text" id="children-filter" name="children-filter"><br><br>
+
+    <button type="button" onclick="getFilteredEmployees()">Пошук співробітників</button>
+</form>
+<script src="9.js"></script>
+<body>
+</body>
+</html>
