@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Title</title>
+    <style realsheet="styles.css"></style>
+</head>
+
+
+<body>
+<div class="container">
+    <form id="filmForm" class="mt-5">
+        <h2>Додати новий фільм</h2>
+        <div class="form-group">
+            <label for="titleInput">Назва</label>
+            <input type="text" class="form-control" id="titleInput" required>
+        </div>
+        <div class="form-group">
+            <label for="directorInput">Режисер</label>
+            <input type="text" class="form-control" id="directorInput" required>
+        </div>
+        <div class="form-group">
+            <label for="trailerUrlInput">Трейлер URL</label>
+            <input type="text" class="form-control" id="trailerUrlInput" required>
+        </div>
+        <div class="form-group">
+            <label for="releaseYearInput">Рік випуску</label>
+            <input type="number" class="form-control" id="releaseYearInput" required>
+        </div>
+        <div class="form-group">
+            <label for="boxOfficeInput">Касовий збір</label>
+            <input type="number" class="form-control" id="boxOfficeInput" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Додати фільм</button>
+    </form>
+
+</div>
+
+<script>
+    function Film(id, author, title, director, trailerUrl, releaseYear, boxOffice) {
+        this.id = id;
+        this.author = author;
+        this.title = title;
+        this.director = director;
+        this.trailerUrl = trailerUrl;
+        this.releaseYear = releaseYear;
+        this.boxOffice = boxOffice;
+    }
+
+    Film.prototype.toString = function() {
+        return `фільм: ${this.title} (${this.releaseYear}) - режисер ${this.director}`;
+    };
+
+    function FilmCollection() {
+        this.films = [];
+
+        this.addFilm = function (film) {
+            this.films.push(film);
+        };
+    }
+    let collection = new FilmCollection();
+
+    let filmForm = document.getElementById("filmForm");
+    let authorInput = document.getElementById("authorInput");
+    let titleInput = document.getElementById("titleInput");
+    let directorInput = document.getElementById("directorInput");
+    let trailerUrlInput = document.getElementById("trailerUrlInput");
+    let releaseYearInput = document.getElementById("releaseYearInput");
+    let boxOfficeInput = document.getElementById("boxOfficeInput");
+
+    function addFilm(event) {
+        event.preventDefault();
+
+        let author = authorInput.value;
+        let title = titleInput.value;
+        let director = directorInput.value;
+        let trailerUrl = trailerUrlInput.value;
+        let releaseYear = parseInt(releaseYearInput.value);
+        let boxOffice = parseInt(boxOfficeInput.value);
+
+        let newFilm = new Film(Date.now(), author, title, director, trailerUrl, releaseYear, boxOffice);
+
+        collection.addFilm(newFilm);
+
+        authorInput.value = "";
+        titleInput.value = "";
+        directorInput.value = "";
+        trailerUrlInput.value = "";
+        releaseYearInput.value = "";
+        boxOfficeInput.value = "";
+
+        displayMessage("Фільм Доданий успішно!", "успішно");
+    }
+</script>
+</body>
+
+</html>
+
+
+
