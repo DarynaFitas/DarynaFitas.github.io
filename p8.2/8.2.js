@@ -77,9 +77,13 @@ accountingCollection.remove("6");
 const accounting4 = accountingCollection.getOne("4");
 const accounting5 = accountingCollection.getOne("5");
 const accounting6 = accountingCollection.getOne("6");
-console.log(accounting);
+console.log(accounting4);
+console.log(accounting5);
+console.log(accounting6);
 
 const filtered4 = accountingCollection.getFilteredByPositionAndnumOfChildren( "молодший Бухгалтер", 3);
 const filtered5 = accountingCollection.getFilteredByPositionAndnumOfChildren( "Бухгалтер", 9);
 const filtered6 = accountingCollection.getFilteredByPositionAndnumOfChildren( "Помічник старшого Бухгалтера", 0);
-console.log(filtered);
+console.log(filtered4);
+console.log(filtered5);
+console.log(filtered6);
