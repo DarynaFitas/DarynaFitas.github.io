@@ -41,7 +41,7 @@ class AccountingCollection {
         return index !== -1 ? this.items[index] : null;
     }
 
-    getFilteredByPositionAndChildrenCount(position, childrenCount) {
+    getFilteredByPositionAndChildrenCount(position, numOfChildren) {
         return this.items.filter(
             (accounting) =>
                 accounting.position === position &&
