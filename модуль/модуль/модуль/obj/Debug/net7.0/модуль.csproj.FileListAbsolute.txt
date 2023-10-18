@@ -1,0 +1,15 @@
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.csproj.AssemblyReference.cache
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.AssemblyInfoInputs.cache
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.AssemblyInfo.cs
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.csproj.CoreCompileInputs.cache
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/bin/Debug/net7.0/модуль
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/bin/Debug/net7.0/модуль.deps.json
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/bin/Debug/net7.0/модуль.runtimeconfig.json
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/bin/Debug/net7.0/модуль.dll
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/bin/Debug/net7.0/модуль.pdb
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.dll
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/refint/модуль.dll
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.pdb
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/модуль.genruntimeconfig.cache
+/Users/darinafitas/Desktop/навчання/програмування/модуль/модуль/модуль/obj/Debug/net7.0/ref/модуль.dll
