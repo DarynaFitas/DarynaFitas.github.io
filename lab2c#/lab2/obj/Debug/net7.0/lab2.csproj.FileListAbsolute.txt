@@ -1,0 +1,15 @@
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/bin/Debug/net7.0/lab2
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/bin/Debug/net7.0/lab2.deps.json
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/bin/Debug/net7.0/lab2.runtimeconfig.json
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/bin/Debug/net7.0/lab2.dll
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/bin/Debug/net7.0/lab2.pdb
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.csproj.AssemblyReference.cache
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.AssemblyInfoInputs.cache
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.AssemblyInfo.cs
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.csproj.CoreCompileInputs.cache
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.dll
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/refint/lab2.dll
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.pdb
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/lab2.genruntimeconfig.cache
+/Users/darinafitas/Desktop/навчання/програмування/lab2/lab2/obj/Debug/net7.0/ref/lab2.dll
