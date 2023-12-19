@@ -1,0 +1,1 @@
+﻿SELECT surname, CONCAT(surname, ' - ', position) AS 'position' FROM Kafedra;

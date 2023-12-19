@@ -1,0 +1,1 @@
+﻿SELECT position, COUNT(*) AS 'Кількість' FROM Kafedra GROUP BY position HAVING COUNT(*) > 1;

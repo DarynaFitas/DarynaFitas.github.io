@@ -1,0 +1,11 @@
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\bin\Debug\Database1.mdf
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\bin\Debug\Database1_log.ldf
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\bin\Debug\lab5c#.exe.config
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\bin\Debug\lab5c#.exe
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\bin\Debug\lab5c#.pdb
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\obj\Debug\lab5c#.csproj.AssemblyReference.cache
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\obj\Debug\lab5c_.Properties.Resources.resources
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\obj\Debug\lab5c#.csproj.GenerateResource.cache
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\obj\Debug\lab5c#.csproj.CoreCompileInputs.cache
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\obj\Debug\lab5c#.exe
+C:\Users\UzhNU\Desktop\Дашина\lab5c#\lab5c#\obj\Debug\lab5c#.pdb

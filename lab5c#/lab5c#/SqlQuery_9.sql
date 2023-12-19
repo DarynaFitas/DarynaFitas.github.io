@@ -1,0 +1,1 @@
+﻿UPDATE Kafedra SET classroom = 200 WHERE surname = 'Іванов';

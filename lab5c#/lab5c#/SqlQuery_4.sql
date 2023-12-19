@@ -1,0 +1,1 @@
+﻿SELECT * FROM Kafedra WHERE position = 'Прибиральниця' AND degree = 'Ніяка';

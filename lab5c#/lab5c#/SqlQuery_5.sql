@@ -1,0 +1,1 @@
+﻿SELECT DISTINCT position FROM Kafedra;
