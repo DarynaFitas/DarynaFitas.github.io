@@ -1,0 +1,1 @@
+﻿SELECT grade1, grade2, grade3, schoolarship FROM Students WHERE surname = 'прізвище';

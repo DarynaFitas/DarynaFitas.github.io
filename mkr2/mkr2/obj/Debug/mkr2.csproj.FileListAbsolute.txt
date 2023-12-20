@@ -1,0 +1,11 @@
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\bin\Debug\Database1.mdf
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\bin\Debug\Database1_log.ldf
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\bin\Debug\mkr2.exe.config
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\bin\Debug\mkr2.exe
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\bin\Debug\mkr2.pdb
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\obj\Debug\mkr2.csproj.AssemblyReference.cache
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\obj\Debug\mkr2.Properties.Resources.resources
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\obj\Debug\mkr2.csproj.GenerateResource.cache
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\obj\Debug\mkr2.csproj.CoreCompileInputs.cache
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\obj\Debug\mkr2.exe
+C:\Users\UzhNU\Desktop\Дашина\mkr2\mkr2\obj\Debug\mkr2.pdb

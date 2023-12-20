@@ -1,0 +1,1 @@
+﻿SELECT COUNT(*) FROM Students WHERE curse = 2 AND faculty = 'Туризм' AND grade1 >= 60 AND grade2 >= 60 AND grade3 >= 60 AND genre = 'чоловік';
