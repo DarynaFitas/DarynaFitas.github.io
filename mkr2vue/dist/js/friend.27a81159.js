@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmkr2vue"]=self["webpackChunkmkr2vue"]||[]).push([[399],{7294:function(r,e,n){n.r(e),n.d(e,{default:function(){return i}});var u=n(3396);function t(r,e,n,t,c,a){return(0,u.wg)(),(0,u.iD)("div")}var c={},a=n(89);const f=(0,a.Z)(c,[["render",t]]);var i=f}}]);
+//# sourceMappingURL=friend.27a81159.js.map
