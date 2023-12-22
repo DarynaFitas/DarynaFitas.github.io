@@ -1,0 +1,15 @@
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/bin/Debug/net7.0/mkr2sh
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/bin/Debug/net7.0/mkr2sh.deps.json
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/bin/Debug/net7.0/mkr2sh.runtimeconfig.json
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/bin/Debug/net7.0/mkr2sh.dll
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/bin/Debug/net7.0/mkr2sh.pdb
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.csproj.AssemblyReference.cache
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.AssemblyInfoInputs.cache
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.AssemblyInfo.cs
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.csproj.CoreCompileInputs.cache
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.dll
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/refint/mkr2sh.dll
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.pdb
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/mkr2sh.genruntimeconfig.cache
+/Users/darinafitas/Desktop/навчання/шаблони/модуль шаблони №2/mkr2sh/mkr2sh/obj/Debug/net7.0/ref/mkr2sh.dll
